@@ -1,6 +1,6 @@
 package Conditionals;
 
-public class ConditionalsIfElse {
+public class EntranceController {
 
     public static String toManyHumans(int persons){
 

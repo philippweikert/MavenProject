@@ -1,12 +1,10 @@
 package ConditionalsTest;
 
-import Conditionals.ConditionalsIfElse;
+import Conditionals.EntranceController;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class ConditionalsIfElseTest {
+class EntranceControllerTest {
 
     @Test
 
@@ -18,7 +16,7 @@ class ConditionalsIfElseTest {
 
         //what
 
-       String actual = ConditionalsIfElse.toManyHumans(persons);
+       String actual = EntranceController.toManyHumans(persons);
 
        //then
 
@@ -35,7 +33,7 @@ class ConditionalsIfElseTest {
 
         //what
 
-        String actual = ConditionalsIfElse.toManyHumans(persons);
+        String actual = EntranceController.toManyHumans(persons);
 
         //then
 
